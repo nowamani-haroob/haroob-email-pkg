@@ -1,0 +1,29 @@
+{
+    "name": "Haroob/Email",
+    "description": "A package that enables users to seamlessly send support email after registration",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Haroob\\Email\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nowamani Baturumayo",
+            "email": "nowamani.baturumayo@haroob.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "_comment_a": {
+        "Subject": "Below is the Configuring for the package auto discovery in your app.providers"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Haroob\\Email\\HaroobEmailServiceProvider"
+            ]
+        }
+    }
+}
