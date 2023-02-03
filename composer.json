@@ -1,5 +1,5 @@
 {
-    "name": "Haroob/Email",
+    "name": "haroob/email",
     "description": "A package that enables users to seamlessly send support email after registration",
     "type": "library",
     "license": "MIT",
